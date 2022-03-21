@@ -12,11 +12,12 @@
 }
 
 .ground {
-    background-color: rgb(165, 108, 42);
+    background-color: rgb(151, 107, 24);
     width: 500px;
     height: 150px;
     position: absolute;
     bottom: 0;
+    z-index: 2;
 }
 
 .bird {
@@ -24,4 +25,19 @@
     position: absolute;
     width: 60px;
     height: 45px;
+}
+
+.obstacle {
+    background-color: green;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.topObstacle {
+    background-color: green;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(180deg);
 }
